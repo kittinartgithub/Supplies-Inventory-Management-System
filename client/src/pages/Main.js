@@ -6,6 +6,7 @@ function Main() {
     return (
     <body>
       <title>Supply System</title>
+      
       <Navbar/>
     </body>
       
