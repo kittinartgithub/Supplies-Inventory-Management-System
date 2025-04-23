@@ -1,9 +1,8 @@
 nav {
     display: flex;
     align-items: center;
-    padding: 1.5em 1em;
-    gap: 1em;
     background-color: #D1E7FF;
+
 }
 
 #title{
@@ -22,7 +21,7 @@ nav {
 
 /* --------------------------------------------- */
 /* *การจัด Group ที่ใช้ค่า 2 id เหมือนกัน * */
- #links ul , #account ul{                   
+#account ul{                   
    display: flex;
    gap: 1em;
    margin: 0;
@@ -32,6 +31,13 @@ nav {
     a {
         text-decoration: none;
         color: black;
+    }
+
+    a #profile_user{
+        width: 3em;
+        height: auto;
+        display: inline-block;
+        
     }
    }
 }
@@ -55,3 +61,12 @@ nav {
     width: 100%;
 }
 
+#account {
+    background-color: #CBD5E1;
+    padding: 0.8em 1em;
+    margin-bottom: 0em;
+    align-self: stretch;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
